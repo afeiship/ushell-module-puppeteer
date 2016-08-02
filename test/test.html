@@ -20,6 +20,10 @@
 <body ng-controller="MainCtrl as vm" ng-cloak>
 
 
+<div class="test-tgl" nx-toggle active="vm.active">
+  content!!!!
+</div>
+
 
 <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="../bower_components/angular-module-stiffener/dist/angular-module-stiffener.js"></script>
@@ -28,6 +32,13 @@
   var TestModule = angular.module('TestApp', ['nx.widget'])
     .controller('MainCtrl', function ($scope) {
       var vm = this;
+      vm.active=false;
+
+      $scope.$watch(function(){
+        return vm.active;
+      },function(inValue){
+        console.log(inValue)
+      })
       //You directive demo code goes here!
     });
 </script>

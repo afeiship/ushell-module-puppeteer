@@ -27,8 +27,7 @@ var config = {
 
 var scripts = [
   './src/angular/main.js',
-  './src/angular/directive/toggle.js',
-  './src/angular/service/toggle.js'
+  './src/angular/directive/toggle.js'
 ];
 
 
