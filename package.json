@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-puppeteer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix config for puppeteer.",
   "main": "index.sh",
   "repository": {
@@ -9,9 +9,13 @@
   },
   "keywords": [
     "ushell",
-    "unix",
-    "shell",
-    "ushell-module-puppeteer"
+    "module",
+    "puppeteer",
+    "chrome",
+    "headless",
+    "mac",
+    "centos",
+    "ubuntu"
   ],
   "license": "MIT",
   "bugs": {
